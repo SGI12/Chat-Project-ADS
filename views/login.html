@@ -70,33 +70,33 @@ Handle:<br>
         <div class="modal-content" >
             <div class="modal-header" style="padding:15px 50px;">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="text-center"><span class="glyphicon glyphicon-lock"></span> Register</h4>
+                <h4 class="text-center"><span class="glyphicon glyphicon-lock"></span> Зарегистрироваться</h4>
             </div>
             <div class="modal-body" style="padding:20px 50px;">
                 <form role="form" action="http://localhost:8080/register" method="post">
                     <div class="form-group">
-                        <label for="name"><span class="glyphicon glyphicon-user"></span> Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Full Name" ng-model="user.name">
+                        <label for="name"><span class="glyphicon glyphicon-user"></span> Имя</label>
+                        <input type="text" class="form-control" id="name" placeholder="Полное имя" ng-model="user.name">
                     </div>
                     <div class="form-group">
-                        <label for="handle"><span class="glyphicon glyphicon-user"></span> Handle</label>
-                        <input type="text" class="form-control" id="handle" placeholder="Enter Handle" ng-model="user.handle">
+                        <label for="handle"><span class="glyphicon glyphicon-user"></span> Логин</label>
+                        <input type="text" class="form-control" id="handle" placeholder="Введите логин" ng-model="user.handle">
                     </div>
                     <div class="form-group">
-                        <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-                        <input type="password" class="form-control" id="psw" placeholder="Enter password" ng-model="user.password">
+                        <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Пароль</label>
+                        <input type="password" class="form-control" id="psw" placeholder="Введите пароль" ng-model="user.password">
                     </div>
                     <div class="form-group">
                         <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email</label>
-                        <input type="text" class="form-control" id="email" placeholder="Enter Email" ng-model="user.email">
+                        <input type="text" class="form-control" id="email" placeholder="Введите Email" ng-model="user.email">
                     </div>
                     <div class="form-group">
-                        <label for="phone"><span class="glyphicon glyphicon-phone"></span> Phone</label>
-                        <input type="text" class="form-control" id="phone" placeholder="Enter Phone number" ng-model="user.phone">
+                        <label for="phone"><span class="glyphicon glyphicon-phone"></span> Номер телефона</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Введите номер" ng-model="user.phone">
                     </div>
 
                     <button type="button" class="btn btn-primary btn-block" data-dismiss="modal" ng-click="Register()"><span class="glyphicon glyphicon-off"></span>
-                        Register</button>
+                        Регистрация</button>
                 </form>
             </div>
             <!--
